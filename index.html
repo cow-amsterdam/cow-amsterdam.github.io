@@ -9,7 +9,25 @@
   <h3>15 - 25 April 2024</h3>
   <a href="https://www.cwi.nl/" target="_blank">Centrum Wiskunde &amp; Informatica (CWI)</a><br>
   Amsterdam, the Netherlands<br> 
-  
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+</style>
+  </head><body>
   <br><br>
   <hr>
 
@@ -55,11 +73,19 @@
   </ul>
   </ul>
   <hr>
-  <h3>Sponsors</h3>
+    <h3>Sponsors</h3>
   <ul>
-  <div style="float:left; margin-right:100%; margin-top:-1em;margin-bottom:1em">
-	  <img src="networks.jpg" width=400> 
+  <div class="row">
+  <div class="column">
+    <img src="networks.jpg" alt="Networks" style="height:150">
   </div>
+  <div class="column">
+    <img src="cwi.png" alt="CWI" style="height:150">
+  </div>
+  <div class="column">
+    <img src="unipa.png" alt="Universita degli studi di Palermo" style="height:150">
+  </div>
+</div>
   </ul>  
 <br><br>
 <hr>
@@ -67,6 +93,6 @@
   Please contact <a href="mailto:esteban.gabory-at-cwi.nl">Esteban Gabory</a> and <a href="mailto:hilde.verbeek-at-cwi.nl">Hilde Verbeek</a> for organisation matters
 <a href="http://www.cwi.nl/disclaimer.html" style="float: right;">CWI Disclaimer</a><br>
   Last modification: Apr 2024
-  </address>
+  </address></body>
   
 
